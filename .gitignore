@@ -1,0 +1,41 @@
+# ide and tools extra
+# .gitignore
+*.idea/
+*.orig
+*.sublime-project
+*.sublime-workspace
+*.project
+*.ipynb*
+
+# archivos temporales
+*.pyc
+*.pyo
+*.bak
+*.bak2
+*.log
+*/__pycache__/
+
+# extensiones
+registry_project/*.pdf
+registry_project/*.json
+
+# db
+registry_project/*.sqlite3
+
+# migrations
+registry_project/apps/*/migrations/__init__.py
+registry_project/apps/*/migrations/__pycache__
+registry_project/apps/*/migrations/0*
+*/migrations/0*
+*/migrations/__pycache__/
+*/__pycache__/
+
+# config
+/registry_project/config/settings/dev.py
+
+# static y temporales
+registry_project/media/*
+registry_project/static/*
+
+# documentacion
+docs/build
