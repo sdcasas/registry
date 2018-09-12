@@ -1,1 +1,2 @@
-django==2.0
+Sphinx==1.6.4
+sphinx-rtd-theme==0.2.4

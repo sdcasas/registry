@@ -38,4 +38,4 @@ registry_project/media/*
 registry_project/static/*
 
 # documentacion
-docs/build
+doc/build
